@@ -5,27 +5,43 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-widht">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="slaider_main">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+  <h2> Псевдоклассы</h2>
+  <div class="block">
+      <p><a href="https://google.com" class="link">Lorem</a> Ссылка содержит 3 псевдокласса: hover, visited, active. Hover меняет нынешний стиль на указанный при наведении на тег. Visited меняет стиль ссылки или элемента со ссылкой после перехода на другую страницу. К примеру, тут ссылка после перехода поменяла цвет на желтый. Active меняет стиль в мгновение нажатия на элемент и тут же возвращается до первоначального вида, применяеться чаще всего на кнопках и ссылках.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nulla minus temporibus neque error quidem saepe. Ullam dolore, atque expedita fugiat fugit, doloremque dolor modi impedit ducimus omnis corrupti excepturi.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nulla minus temporibus neque error quidem saepe. Ullam dolore, atque expedita fugiat fugit, doloremque dolor modi impedit ducimus omnis corrupti excepturi.</p>
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-          $('.your-class').slick({
-            setting-name: setting-value
-          });
-        });
-      </script>
-
+    <div class="block">
+      <p>Focus срабатывает, в данном случае, когда пользователь нажмет на поле текстового ввода(состояние фокусировки).</p>
+    </div> 
+  <form action="#">
+    <input type="text" class="textinput">       
+    <button type="submit" class="textbutton">Отправить</button>
+    
+    <div class="block">
+    <p>Ряд псевдоклассов для списков: first-child, last-child, nth-child(n), nth-child(odd), nth-child(even).</p><br>
+    <p>first-child. "Первый элемент списка", меняет стиль для первого элемента в списке или блоке.</p><br>
+    <p>last-child. "Последний элемент списка", меняет стиль для последнего элемента в списке или блоке.</p><br>
+    <p>nth-child(n). "N-й элемент списка", меняет стиль для указанного элемента в списке или блоке. Счет начинаеться с 1.</p><br>
+    <p>nth-child(odd). "Четный элемент списка", меняет стиль для всех четных элементов списка или блока.</p><br>
+    <p>nth-child(even). "Нечетный элемент списка", меняет стиль для всех нечетных элементов списка или блока.</p><br>
+    </div>
+    
+  </form>
+    <ul class="list">
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+      <li>text</li>
+    </ul>
+    <h2>Также здесь задействован адаптив</h2>
+  
 </body>
 </html>
